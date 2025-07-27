@@ -1,0 +1,20 @@
+https://youtu.be/kU0z9REwzYg
+Added:
+Enemies that can be pushed and respawn
+  -Enemies are made from actor blueprint. To make them spawn and respawn, there is a spawner and a spawner manager. When enemies are defeated, the manager checks how many enemies
+  there currently are and decides if they need respawned or not yet. When an enemy is touched by the player, simulate physics is activated, allowing the 
+    enemies to become basically ragdolls and they are "eliminated" and despawn. 
+Falling Platforms that change colors 
+  -Not one hundred percent sure on how to explain this one, but I will do my best. 
+  Falling platforms run on multiple custom commands that can be activated by the player. When a player steps on a falling platform, the color changes to show that
+  it has been activated. Then, it follows a timeline animation to show them falling and returning to their original positions with different colors coordinated to 
+  the respective part of the cycle. 
+Moving Platforms
+  -Moving platforms, similar to falling platforms, also use a timeline to move. However, unlike falling platforms, they are not directly linked to the players actions
+  and follow a particular course.
+Mana Potion
+  - The mana potion is an item that the player is able to pick up and use or drop. Essentially, when the player picks one up, a print string appears letting them 
+  know they have the item. If they use it, another print string is activated to show the player that they gained mana. However, the player is unable to have
+  multiple items in their possession at once and will be unable to pick up another until they use or drop the one they have. 
+Health Potion
+- The health potion works the same way as the mana potion, but the print string and material is different to show the distinction between the two.

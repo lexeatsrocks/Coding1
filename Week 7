@@ -1,0 +1,18 @@
+Added Changes for Week 7
+Killing floor
+- Added a cube that can kill the player. It triggers the you died screen and forces the player back to their checkpoint. 
+  Honestly not entirely sure how I got that one working. 
+Save Checkpoint/Load Checkpoint
+- Cylinders that act as checkpoints are around the map. By stepping on them, it changes the player's spawn. When a player dies, they are placed back at their last 
+  check point. 
+Main menu
+- Another level was made and a camera actor was placed to show a single shot. With the added widgets for a start game
+  and quit game button, it allows the player to either quit program or enter the level. 
+You Died Widget
+- The widget activates when the player touches the killing floor.
+  It uses delays and camera fades to transition the character back to their save point. 
+  It is anchored to the middle of the screen and using delays, appears and disapears when the player has
+  teleported back to save point. 
+Name of game in corner of screen widget
+- Widget that shows the name of game and my name. It was made using a canvas and text and anchored to the bottom right 
+  of the screen. 
